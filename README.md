@@ -1,2 +1,2 @@
-![image](help.mp4)
+![image](help.gif)
 
