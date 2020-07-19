@@ -13,14 +13,14 @@ class Meta(type):
 
 class Bio(metaclass=Meta):
     name        : str = "Timothy Wangwe"
-    designation : str = "Data Scientist"
+    designation : str = "Data Science"
     base        : str = "Nairobi, Kenya"
 
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "Javascript", "CSS")
     databases   : Tuple[str, ...] = ("SQLite")
     frameworks  : Tuple[str, ...] = ("Django", "Bootstrap4", "Rest API")
-    packages    : Tuple[str, ...] = ("Pandas", "Numpy", "Matplotlib")
+    packages    : Tuple[str, ...] = ("Pandas", "Numpy", "Matplotlib", "Seaborn")
     ongoing     : Tuple[str, ...] = ("Sklearn", "Tensorflow", "Keras")
 
 class Social(metaclass=Meta):
